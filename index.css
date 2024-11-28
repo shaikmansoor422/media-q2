@@ -1,0 +1,59 @@
+h2 {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px 4px black;
+}
+.gtr,
+.supra,
+.lamb {
+  margin-top: 30px;
+  border: 2px solid;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media screen and (orientation: landscape) {
+  .main {
+    background-color: antiquewhite;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .main {
+    background-color: rgb(124, 174, 244);
+  }
+}
+
+img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  width: 300px;
+  height: 150px;
+  overflow: scroll;
+  background-color: white;
+}
+
+.names {
+  text-align: center;
+  background-color: lightcyan;
+}
+div {
+  border: 1.5px solid;
+}
+::-webkit-scrollbar {
+  display: none;
+}

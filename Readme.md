@@ -1,0 +1,1 @@
+Media queries by adding image and content in div
